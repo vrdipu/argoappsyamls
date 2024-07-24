@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/vrdipu/crossplane.git'
-    path: .
-    targetRevision: HEAD
+    repoURL: 'https://charts.crossplane.io/stable'
+    chart: crossplane
+    targetRevision: 1.11.0 # Replace with the latest version or your desired version
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: crossplane-system
